@@ -1,1 +1,1 @@
-# stock-manager
+# Stock-Manager
