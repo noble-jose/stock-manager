@@ -71,7 +71,7 @@
     						    <thead style="background-color: #f0f0f0;">
             						<tr>
             						    <th style="border-bottom: none;padding-left: 10px;">S.No</th>
-            						    <th style="border-bottom: none;" class="text-start">User Name</th>
+            						    <th style="border-bottom: none;" class="text-start">Customer Name</th>
             						    <th style="border-bottom: none;" class="text-start">Vehicle Number</th>
               						    <th style="border-bottom: none;" class="text-start">Date of Bill</th>
             						    <th style="border-bottom: none;" class="text-start">Credit Date</th>
@@ -180,11 +180,11 @@
 
 			<div class="modal-body">
 			   <div class="row">
-			   		<form class="hpcard_add_modal" action="" method="post" enctype="multipart/form-data">
+			   		<form class="hpcard_add_modal" action="<? base_url('Creditpayment/usercredit')?>" method="post" enctype="multipart/form-data">
 			   			<div class="row">
 			   				<div class="col-md-12">
 			   					<div class="mb-5">
-			   						<label for="card_number" class="form-label">Company Name</label>
+			   						<label for="card_number" class="form-label">Customer Name</label>
 					               	<input type="text" name="account_number" class="form-control form-control-solid" value="KSEB-Kallarkutti" required>	               	
 			   					</div>
 			   				</div>

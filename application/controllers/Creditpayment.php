@@ -19,4 +19,12 @@ class Creditpayment extends CI_Controller {
     }
   }
 
+  public function usercredit()
+  {
+    echo "hii";
+    // $this->form_validation->set_rules('');
+    // $this->form_validation->set_rules('');
+    // $this->form_validation->set_rules('');
+  }
+
  }
